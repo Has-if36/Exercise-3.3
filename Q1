@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  //Q1 a)
+     float price = 9.90;
+  
+  //Q1 b)
+     int quantity=1;
+  
+  //Q1 c)
+     const int DISC = 10;
+  
+  //Q1 d)
+    float totalprice;
+	totalprice = (price*quantity)*(100-DISC)/100;
+}
