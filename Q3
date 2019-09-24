@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    int loan, year, monthly;
+    double interest;
+    
+    cout << "Input loan amount (RM): ";
+    cin >> loan;
+    cout << "Input annual interest rate (%): ";
+    cin >> interest;
+    cout << "Input number of years: ";
+    cin >> year;
+    
+    monthly = (loan*(1+(interest/100)))/(12*year);
+    
+    cout << "Monthly payment for this loan is (RM): " << monthly;
+}
