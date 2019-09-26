@@ -1,18 +1,28 @@
+/*
+	Hasif Bin Mohamad Noh
+	B031910102
+	Exercise 3.3 Question 4
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
+	//declare identifier
     double m;
     int v, ke;
     
+	//Getting inputs
     cout << "Input the object's mass (kg): ";
     cin >> m;
     cout << "Input the object's velocity (m/s): ";
     cin >> v;
     
+	//calculate kinetic energy
     ke = m*v*v/2;
     
+	//display kinetic energy
     cout << "The kinetic energy (Joules): " << ke;
 }
