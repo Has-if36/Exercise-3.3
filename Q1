@@ -1,19 +1,27 @@
+/*
+	Hasif Bin Mohamad Noh
+	B031910102
+	Exercise 3.3 Question 1
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
-  //Q1 a)
+  //a) a floating point named price initialized to 9.90
      float price = 9.90;
   
-  //Q1 b)
+  //b) an integer named quantity
      int quantity=1;
   
-  //Q1 c)
+  //c) a constant integer named DISC initialized to 10
      const int DISC = 10;
   
-  //Q1 d)
+  //d) a floating point name totalprice
     float totalprice;
+	
+  //get quantity purchased from the user and then, calculate the totalprice
 	totalprice = (price*quantity)*(100-DISC)/100;
 }
