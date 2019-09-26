@@ -1,12 +1,20 @@
+/*
+	Hasif Bin Mohamad Noh
+	B031910102
+	Exercise 3.3 Question 3
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
+	//declare identifier
     int loan, year, monthly;
     double interest;
     
+	//Getting inputs
     cout << "Input loan amount (RM): ";
     cin >> loan;
     cout << "Input annual interest rate (%): ";
@@ -14,7 +22,9 @@ int main()
     cout << "Input number of years: ";
     cin >> year;
     
+	//calculate monthly payment
     monthly = (loan*(1+(interest/100)))/(12*year);
     
+	//display monthly payment
     cout << "Monthly payment for this loan is (RM): " << monthly;
 }
