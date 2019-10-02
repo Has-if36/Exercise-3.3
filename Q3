@@ -11,20 +11,20 @@ using namespace std;
 int main()
 {
 	//declare identifier
-    int loan, year, monthly;
-    double interest;
+	int loan, year, monthly;
+	double interest;
     
 	//Getting inputs
-    cout << "Input loan amount (RM): ";
-    cin >> loan;
-    cout << "Input annual interest rate (%): ";
-    cin >> interest;
-    cout << "Input number of years: ";
-    cin >> year;
+	cout << "Input loan amount (RM): ";
+	cin >> loan;
+	cout << "Input annual interest rate (%): ";
+	cin >> interest;
+	cout << "Input number of years: ";
+	cin >> year;
     
 	//calculate monthly payment
-    monthly = (loan+(loan*(interest / 100)*year))/(12*year);
+	monthly = (loan+(loan*(interest / 100)*year))/(12*year);
     
 	//display monthly payment
-    cout << "\nMonthly payment for this loan is (RM): " << monthly << endl;
+	cout << "\nMonthly payment for this loan is (RM): " << monthly << endl;
 }
