@@ -23,7 +23,7 @@ int main()
     cin >> year;
     
 	//calculate monthly payment
-    monthly = (loan*(1+(interest/100)))/(12*year);
+    monthly = (loan+(loan*(interest / 100)*year))/(12*year);
     
 	//display monthly payment
     cout << "\nMonthly payment for this loan is (RM): " << monthly << endl;
