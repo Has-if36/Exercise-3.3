@@ -26,5 +26,5 @@ int main()
     monthly = (loan*(1+(interest/100)))/(12*year);
     
 	//display monthly payment
-    cout << "Monthly payment for this loan is (RM): " << monthly;
+    cout << "\nMonthly payment for this loan is (RM): " << monthly << endl;
 }
